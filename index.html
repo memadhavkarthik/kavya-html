@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Kavya Sree Boddeti's Resume</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="icon" href="static/Kavyalogo.jpg"loading="lazy" type="image/png">
+</head>
+<body>
+    <nav class="navbar">
+        <span class="navbar-title">Sai Kavya Sree Boddeti's Resume</span>
+        <div class="navbar-spacer"></div>
+        <ul id="navbar-links">
+            <li><a href="#about" onclick="closeNavbar()">About</a></li>
+            <li><a href="#education" onclick="closeNavbar()">Education</a></li>
+            <li><a href="#skills" onclick="closeNavbar()">Skills</a></li>
+            <li><a href="#experience" onclick="closeNavbar()">Experience</a></li>
+            <li><a href="#projects" onclick="closeNavbar()">Projects</a></li>
+            <li><a href="https://drive.google.com/file/d/1qTm2XE2gn7xYOvTnn-0Y8SRrlvzSEEIa/view" target="_blank" class="resume-link" onclick="closeNavbar()"><span class="resume-text">Resume</span></a></li> <!-- New Resume link with span -->
+        </ul>
+        <button class="navbar-toggle" onclick="toggleNavbar()">☰</button>
+    </nav>
+
+    <header class="banner">
+        <h1>Sai Kavya Sree Boddeti</h1>
+        <p>Data Scientist | Data Engineer | Data Analyst</p>
+        <div class="logo-container">
+            <a href="#education">
+                <img src="static/images.png" loading="lazy"alt="Stony Brook University Logo" class="header-logo">
+            </a>
+            <a href="#experience">
+                <img src="static/Suny.jpg" loading="lazy"alt="Research foundation for Suny" class="header-logo">
+            </a>
+        </div>
+        <div class="social-logos">
+            <a href="https://linkedin.com/in/saikavyasreeboddeti" target="_blank">
+                <img src="static/linkedin.png" alt="LinkedIn Logo" class="social-logo">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="card about-section">
+            <div class="about-text">
+                <h2>About</h2>
+                <p>
+                    I'm <strong>Sai Kavya Sree Boddeti</strong>, a dedicated <strong>Data Scientist</strong>. I focus on creating real impact through data science by building machine learning models and scalable pipelines that improve decision-making and efficiency.
+                </p>
+                <p>
+                    I’ve worked on projects that predict customer behavior, streamline healthcare processes, and deliver real-time analytics—solutions that didn’t just work in theory but actively solved real business problems.
+                </p>
+                <p>
+                    I also make insights clear and actionable for teams with data storytelling and intuitive dashboards.
+                </p>
+            </div>
+            <div class="profile-container">
+                <img src="static/kavya2_11zon.jpg" alt="Sai Kavya Sree Boddeti's Profile Picture"loading="lazy" class="profile-pic">
+            </div>
+        </section>
+
+        <section id="education" class="card">
+            <h2>Education</h2>
+            <div class="dynamic-card education-box dynamic-section">
+                <div class="education-info">
+                    <p><strong>Master of Science, Data Science</strong></p>
+                    <p>Stony Brook University (Aug 2023 - May 2025)</p>
+                    <div class="education-images">
+                        <img src="static/stonybrook.png" alt="Stony Brook University Image 1" loading="lazy">
+                    </div>
+                </div>
+                <div class="education-info">
+                    <p><strong>Bachelor of Technology, Computer Science and Business Systems</strong></p>
+                    <p>GITAM University (Jun 2019 - May 2023)</p>
+                    <div class="education-images">
+                        <img src="static/gitamlogo.png" alt="GITAM University Image 1" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills" class="card">
+            <h2 class="skills-header">Skills</h2>
+            <div class="skills-text">
+                <div class="dynamic-card skills-content dynamic-section">
+                    <p><strong>Programming & Data Manipulation:</strong> Python, SQL, R, data cleaning, feature engineering, and database management for analytics.</p>
+                    <div class="skills-images">
+                        <img src="static/python.jpg" alt="Python" loading="lazy">
+                        <img src="static/sql.jpg" alt="SQL" loading="lazy">
+                        <img src="static/r.png" alt="R" loading="lazy">
+                    </div>
+                    <p><strong>Machine Learning & AI:</strong> Deep learning, natural language processing, recommendation systems, model development.</p>
+                    <div class="skills-images">
+                        <img src="static/deeplearning.png" alt="Deep Learning" loading="lazy">
+                        <img src="static/nlp.png" alt="NLP" loading="lazy">
+                        <img src="static/recommendationsystems.webp" alt="Recommendation Systems" loading="lazy">
+                    </div>
+                    <p><strong>Data Visualization & Reporting:</strong> Tableau, Power BI, matplotlib, seaborn, data storytelling, KPI dashboards, and reporting.</p>
+                    <div class="skills-images">
+                        <img src="static/tableau.png" alt="Tableau" loading="lazy">
+                        <img src="static/powerbi.jpg" alt="Power BI" loading="lazy">
+                        <img src="static/matplotlib.png" alt="Matplotlib" loading="lazy">
+                    </div>
+                    <p><strong>Statistical Analysis:</strong> Regression analysis, hypothesis testing, clustering, time-series analysis, A/B testing, statistical modeling.</p>
+                    <div class="skills-images">
+                        <img src="static/regressionanalysis.png" alt="Regression Analysis" loading="lazy">
+                        <img src="static/hypothesistesting.webp" alt="Hypothesis Testing" loading="lazy">
+                        <img src="static/clustering.webp" alt="Clustering" loading="lazy">
+                    </div>
+                    <p><strong>Data Management:</strong> ETL pipelines, data wrangling, cloud-based data storage solutions, data integration, automation workflows.</p>
+                    <div class="skills-images">
+                        <img src="static/etl-pipelines.png" alt="ETL Pipelines" loading="lazy">
+                        <img src="static/data_wrangling.png" alt="Data Wrangling" loading="lazy">
+                        <img src="static/automation workflows.png" alt="Automation Workflows" loading="lazy">
+                    </div>
+                    <p><strong>Tools & Frameworks:</strong> TensorFlow, PyTorch, scikit-learn, AWS Sagemaker, Unix, Linux, shell scripting, Apache Spark.</p>
+                    <div class="skills-images">
+                        <img src="static/tensorflow.png" alt="TensorFlow" loading="lazy">
+                        <img src="static/Pytorch.png" alt="PyTorch" loading="lazy">
+                        <img src="static/scikitlearn.png" alt="scikit-learn" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience" class="card">
+            <h2>Experience</h2>
+            <div class="dynamic-card experience-box dynamic-section">
+                <div class="experience-text">
+                    <h3>Data Analyst</h3>
+                    <p>The Research Foundation for SUNY (Jan 2024 - Present)</p>
+                    <ul>
+                        <li>Utilized advanced SQL to systematically analyze cancer datasets from 20+ sources, uncovering actionable insights crucial for research.</li>
+                        <li>Designed and implemented a SQLAlchemy ORM database model to structure and manage over 50,000 NAACCR records.</li>
+                        <li>Engineered custom mappers to unify data received from partner universities, boosting downstream accuracy.</li>
+                        <li>Streamlined data workflows via Python and SQLAlchemy, reducing query time by 20% in Biomedical Informatics Lab.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dynamic-card experience-box dynamic-section">
+                <div class="experience-text">
+                    <h3>Graduate Research Assistant</h3>
+                    <p>Stony Brook University (Aug 2024 - Present)</p>
+                    <ul>
+                        <li>Led biweekly meetings with 45 clinicians and researchers in the Biomedical Data Analytics Lab, using Tableau dashboards to present opioid overdose risk insights. Facilitated discussions to gather feedback on model performance and identify areas for improvement.</li>
+                        <li>Designed and implemented interactive Tableau dashboards that provided real-time, interpretable insights by integrating data pipelines built with Python (Pandas, NumPy) and SQL. These dashboards helped clinicians identify critical risk patterns and make timely intervention decisions.</li>
+                        <li>Automated data extraction, cleaning, and transformation processes using Python and SQL, ensuring accurate and up-to-date information was available for analysis and visualization. This streamlined workflow reduced manual reporting time by 30%.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dynamic-card experience-box dynamic-section">
+                <div class="experience-text">
+                    <h3>Machine Learning Engineer</h3>
+                    <p>Phoenix Global (May 2022 - Jul 2022)</p>
+                    <ul>
+                        <li>Implemented a spam email classification model using NLP techniques, achieving 96% accuracy.</li>
+                        <li>Optimized model through hyperparameter tuning, feature selection, and advanced text preprocessing.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="card">
+            <h2>Projects</h2>
+            <div class="dynamic-card dynamic-section">
+                <h3>Dynamic Real-Time Analytics for Smart City IoT Infrastructure</h3>
+                <p>Implemented a data pipeline with Apache Kafka, Apache Spark, and Amazon Redshift, optimizing data flow and processing for IoT-based traffic and weather data.</p>
+            </div>
+            <div class="dynamic-card dynamic-section">
+                <h3>Customer Purchase Behavior Prediction</h3>
+                <p>Analyzed historical customer purchase data and identified key features influencing buying patterns using Python and scikit-learn.</p>
+            </div>
+            <div class="dynamic-card dynamic-section">
+                <h3>Personalized Recommendation System with NLP and Deep Learning</h3>
+                <p>Designed a NLP-based recommendation system using TensorFlow, integrating pre-trained language models to analyze customer reviews, interactions, and feedback.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sai Kavya Sree Boddeti</p>
+    </footer>
+
+    <script>
+        // Toggle navbar on small screens
+        function toggleNavbar() {
+            const navbarLinks = document.getElementById('navbar-links');
+            navbarLinks.classList.toggle('show');
+        }
+
+        // Smooth scroll to sections
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close the navbar after clicking a link
+                if (window.innerWidth <= 768) {
+                    toggleNavbar();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
