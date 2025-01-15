@@ -1,4 +1,4 @@
-# tanmays-website
+# Kavya's-website
 Hosted Kavya's website on vercel using just html,css and javascript.
 
 # Caution
